@@ -1,0 +1,5 @@
+How do you handle signals like Ctrl+C in a shell script?
+handling signals like Ctrl+C (which sends the SIGINT signal) can be done using the trap command. 
+The trap command allows you to specify actions that should be performed when certain signals are received.
+
+SIGINT: Sent when you press Ctrl+C (interrupt signal).

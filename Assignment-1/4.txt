@@ -1,0 +1,15 @@
+Explain the differences between standard output (stdout) and standard error (stderr).
+
+standard Output (stdout)
+To output normal data or results.	
+File Descriptor: 1	
+Printed to the terminal.	
+command > file to redirect to a file.	.
+It can be mixed with stderr unless handled separately.
+
+Standard Error (stderr)
+To output error messages or diagnostics.
+File Descriptor : 2
+Printed to the terminal, but meant for errors.
+command 2> file to redirect errors to a file
+Usually handled separately to distinguish errors from regular output.

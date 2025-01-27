@@ -1,0 +1,2 @@
+10. How can you use arithmetic operations within a shell script?
+we can use arithmetic operations within shell script using $((any arithmetic operation between two numbers or one number such increment ))
